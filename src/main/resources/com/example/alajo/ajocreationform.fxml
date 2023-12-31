@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alajo.ajoformcontroller">
+   <children>
+      <Button layoutX="173.0" layoutY="539.0" mnemonicParsing="false" onAction="#createajo" text="Submit" />
+      <Label layoutX="134.0" layoutY="197.0" prefHeight="44.0" prefWidth="128.0" text="Number of Participants " />
+      <TextField fx:id="numberpfield" layoutX="12.0" layoutY="241.0" prefHeight="26.0" prefWidth="372.0" />
+      <TextField fx:id="amountfield" layoutX="12.0" layoutY="325.0" prefHeight="26.0" prefWidth="372.0" />
+      <Label layoutX="137.0" layoutY="278.0" prefHeight="44.0" prefWidth="121.0" text="Contribution Amount" />
+      <TextField fx:id="ajoidfield" layoutX="15.0" layoutY="156.0" prefHeight="26.0" prefWidth="372.0" />
+      <Label layoutX="171.0" layoutY="102.0" prefHeight="44.0" prefWidth="58.0" text="Ajo name " />
+      <Label fx:id="errorlabel" layoutX="105.0" layoutY="59.0" prefHeight="18.0" prefWidth="191.0" />
+      <Label layoutX="96.0" layoutY="366.0" prefHeight="18.0" prefWidth="226.0" text="Contribute Every When (in days please)" />
+      <TextField fx:id="everywhenf" layoutX="14.0" layoutY="398.0" prefHeight="26.0" prefWidth="372.0" />
+      <TextField fx:id="payouteverywhen" layoutX="15.0" layoutY="464.0" prefHeight="26.0" prefWidth="372.0" />
+      <Label layoutX="105.0" layoutY="436.0" prefHeight="18.0" prefWidth="191.0" text="PayOut Every When (in days please)" />
+   </children>
+</AnchorPane>

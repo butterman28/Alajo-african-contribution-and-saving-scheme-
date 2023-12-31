@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alajo.userlogincontroller">
+   <children>
+      <Button layoutX="77.0" layoutY="331.0" mnemonicParsing="false" onAction="#tohomepage" prefHeight="26.0" prefWidth="242.0" text="Log-In" />
+      <Button layoutX="131.0" layoutY="420.0" mnemonicParsing="false" onAction="#toregistration" prefHeight="26.0" prefWidth="135.0" text="Sign Up" />
+      <Label layoutX="136.0" layoutY="388.0" prefHeight="18.0" prefWidth="127.0" text="Don't have an Account " />
+      <TextField fx:id="passwordfield" layoutX="21.0" layoutY="259.0" prefHeight="26.0" prefWidth="355.0" />
+      <Label layoutX="174.0" layoutY="223.0" prefHeight="26.0" prefWidth="51.0" text="Password" />
+      <TextField fx:id="useridfield" layoutX="21.0" layoutY="186.0" prefHeight="26.0" prefWidth="355.0" />
+      <Label layoutX="105.0" layoutY="153.0" prefHeight="18.0" prefWidth="186.0" text="User-Name/Email/Phone Number " />
+   </children>
+</AnchorPane>

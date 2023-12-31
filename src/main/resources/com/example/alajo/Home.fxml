@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alajo.homepagecontroller">
+   <children>
+      <Button layoutX="90.0" layoutY="376.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="202.0" text="Create Ajo " />
+      <Button layoutX="14.0" layoutY="85.0" mnemonicParsing="false" text="Search Ajo " />
+      <TextField fx:id="searchfield" layoutX="14.0" layoutY="41.0" prefHeight="26.0" prefWidth="368.0" />
+      <Button fx:id="joinbutton" layoutX="173.0" layoutY="300.0" mnemonicParsing="false" text="Join" />
+      <Label fx:id="ajonamef" layoutX="62.0" layoutY="135.0" prefHeight="18.0" prefWidth="61.0" text="Ajo Name" />
+      <Label fx:id="nopf" layoutX="62.0" layoutY="177.0" prefHeight="18.0" prefWidth="140.0" text="Number Of Participants :" />
+      <Label fx:id="caf" layoutX="62.0" layoutY="210.0" prefHeight="18.0" prefWidth="121.0" text="Contribution Amount :" />
+      <Label fx:id="everyf" layoutX="65.0" layoutY="243.0" prefHeight="18.0" prefWidth="76.0" text="Every When :" />
+      <Label fx:id="invisibleerror" layoutX="119.0" layoutY="89.0" prefHeight="18.0" prefWidth="222.0" />
+      <Label fx:id="cbf" layoutX="65.0" layoutY="273.0" prefHeight="18.0" prefWidth="112.0" text="Created By :" />
+   </children>
+</AnchorPane>

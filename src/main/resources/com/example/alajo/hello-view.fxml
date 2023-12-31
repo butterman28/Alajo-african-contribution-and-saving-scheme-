@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="533.0" prefWidth="326.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.alajo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Label text="UserName/Email/Phone Number " />
+   <TextField prefHeight="26.0" prefWidth="166.0" />
+   <Label text="Password" />
+   <TextField prefHeight="14.0" prefWidth="163.0" />
+   <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="142.0" text="Log-In" />
+
+    <Label fx:id="welcomeText" prefHeight="3.0" prefWidth="131.0" text="Don't Have an Account " />
+   <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="144.0" text="Sign Up " />
+</VBox>

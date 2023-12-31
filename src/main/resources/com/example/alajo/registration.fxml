@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.alajo.registrationcontroller">
+   <children>
+      <Button layoutX="87.0" layoutY="458.0" mnemonicParsing="false" onAction="#registerme" prefHeight="26.0" prefWidth="226.0" text="Registration" />
+      <TextField fx:id="addressfield" layoutX="14.0" layoutY="406.0" prefHeight="26.0" prefWidth="376.0" />
+      <TextField fx:id="cpaassfield" layoutX="14.0" layoutY="340.0" prefHeight="26.0" prefWidth="376.0" />
+      <TextField fx:id="passfield" layoutX="14.0" layoutY="273.0" prefHeight="26.0" prefWidth="376.0" />
+      <Label layoutX="149.0" layoutY="312.0" prefHeight="18.0" prefWidth="102.0" text="Confirm- Password" />
+      <Label layoutX="173.0" layoutY="244.0" prefHeight="18.0" prefWidth="54.0" text="Password" />
+      <Label layoutX="180.0" layoutY="378.0" prefHeight="18.0" prefWidth="44.0" text="Address" />
+      <TextField fx:id="emailfield" layoutX="14.0" layoutY="208.0" prefHeight="26.0" prefWidth="376.0" />
+      <Label layoutX="183.0" layoutY="177.0" prefHeight="18.0" prefWidth="33.0" text="Email" />
+      <TextField fx:id="phfield" layoutX="14.0" layoutY="141.0" prefHeight="26.0" prefWidth="376.0" />
+      <Label layoutX="159.0" layoutY="111.0" text="Phone Number" />
+      <TextField fx:id="idfield" layoutX="11.0" layoutY="73.0" prefHeight="26.0" prefWidth="376.0" />
+      <Label layoutX="166.0" layoutY="43.0" prefHeight="18.0" prefWidth="66.0" text="User Name" />
+      <Label fx:id="hiddenerror" layoutX="2.0" layoutY="511.0" prefHeight="18.0" prefWidth="393.0" />
+   </children>
+</AnchorPane>
